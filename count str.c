@@ -7,23 +7,23 @@ int main()
     char ch[100];
     gets(ch);
     for(i=0; ch[i]!=0; i++)
-	{
+        {
 		if(ch[i]>='A' && ch[i]<='Z')
 		{
- 		upper++;
+ 		  upper++;
 		}
 		else if(ch[i]>='a' && ch[i]<='z')
 		{
-    	lower++;
+    	          lower++;
 		}
-		else if(ch[i]>='0'&& ch[i]<='9')
+		else if(ch[i]>='1'&& ch[i]<='9')
 		{
-			num++;
+		  num++;
 		}
-    }
+        }
     printf("\nCount of uppercase letters: %d",upper);
     printf("\nCount of lowercase letters: %d",lower);  
-	printf("\nCount of numbers: %d",num);
-	getch();
+    printf("\nCount of numbers: %d",num);
+    getch();
     return 0;
 }
