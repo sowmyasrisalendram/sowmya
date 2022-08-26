@@ -19,11 +19,11 @@ int main()
     }
     if(flag==1)
     {
-        printf("PALINDROME");
+        printf("palindrome");
     }
     else
     {
-        printf("NOT PALINDROME");
+        printf("not palindrome");
     }
     return 0;
 }
